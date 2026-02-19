@@ -7,6 +7,12 @@ urlpatterns = [
     path('option-list/<int:pk>/', views.option_list, name='option-list'),
     path('quizattempt-list/<int:pk>/', views.quizattempt_list, name='quizattempt-list'),
     path('answer-list/<int:pk>/', views.answer_list, name='answer-list'),
+    path('user-login/', views.login_user, name='user-login'),
+    path('user-logout/', views.logout_user, name='user-logout'),
+    path('user-signup/', views.signup_user, name='user-signup'),
+    
+    path('quiz/<int:pk>/', views.quiz_detail, name='quiz-detail'),
+
     
     
 ]

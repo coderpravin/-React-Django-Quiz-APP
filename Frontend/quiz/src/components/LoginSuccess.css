@@ -1,0 +1,36 @@
+.quiz-container {
+  padding: 20px;
+}
+
+.quiz-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.quiz-card {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
+
+.quiz-card:hover {
+  background-color: #e6f0ff;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.quiz-desc {
+  font-size: 14px;
+  color: gray;
+  margin: 8px 0;
+}
+
+.quiz-time {
+  font-weight: bold;
+}

@@ -1,9 +1,96 @@
-import React from "react";
+import React, {useState} from "react";
+import "./Signup.css"
+import { useNavigate } from "react-router-dom";
 
-function Signup() {
+function Signup(){
+
+    const [password, setPassword] = useState("");
+    const [confirmPassword, setconfirmPassword] = useState("");
+    const [error, setError] = useState("");
+    const [email, setEmail] = useState("");
+    const [username, setUsername] = useState("");
+    const navigate = useNavigate();
+
+    const handleSubmit = async (e) =>{
+        e.preventDefault();
+
+        if (!email.includes("@") || !email.includes(".")){
+            setError("Enter valid Email");
+            return;
+        }
+
+        if (password !== confirmPassword){
+            setError("Password not match");
+            return;
+        }
+
+        try{
+            const res = await fetch ("http://127.0.0.1:8000/api/user-signup/",{
+                method:"POST",
+                headers: {
+                "Content-Type": "application/json",
+            },
+               body: JSON.stringify({ username, email, password }),
+            });
+
+            const data = await res.json()
+            console.log("RESPONSE DATA:", data);
+
+
+            if (res.ok && data.success){
+                navigate("/login")
+               
+            }else{
+                setError(data.message || "signup Failed")
+            }
+        } catch(error){
+            console.error("The error is ", error)
+        }
+    };
+
+
+
     return (
-        <div>
-            <h2>Signup Page</h2>
+        <div className="signup-container">
+            <form className="signup-form" onSubmit={handleSubmit}>
+                <h2>Signup Page</h2>
+
+                {error ? <p style={{color:"red"}}>{error}</p> : null}
+                <input
+                    type="text"
+                    placeholder="Enter Username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    required
+                />
+                
+                <input 
+                    type="email"
+                    placeholder="Enter your Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                />
+
+                <input
+                    type="password"
+                    placeholder="Enter your password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                />
+
+                <input
+                    type="password"
+                    placeholder="Confirm password"
+                    value={confirmPassword}
+                    onChange={(e) => setconfirmPassword(e.target.value)}
+                    required
+                />
+
+                <button type="submit">Signup</button>
+            </form>
+            
         </div>
     );
 }

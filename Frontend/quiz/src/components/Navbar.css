@@ -25,3 +25,12 @@
 .login-btn:hover {
   background-color: #2980b9;
 }
+
+
+.logout-btn{
+   background-color: #dc3545;
+}
+
+.logout-btn:hover{
+  opacity: 0.9;
+}
