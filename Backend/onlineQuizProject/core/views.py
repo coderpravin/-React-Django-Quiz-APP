@@ -93,3 +93,32 @@ def quiz_detail(request, pk):
     quiz = get_object_or_404(Quiz, pk=pk)
     serializer = QuizSerializer(quiz)
     return Response(serializer.data, status=status.HTTP_200_OK)
+
+@api_view(["POST"])
+def submit_quiz(request):
+    answers = request.data.get("answers",[])
+    result = []
+    
+    for ans in answers:
+        question_id = ans.get("question_id")   
+        selected_option_id = ans.get("selected_option_id")
+        
+        question = get_object_or_404(Question, id=question_id)
+        select_option = get_object_or_404(Option, id=selected_option_id)
+        
+        is_correct = select_option.is_correct
+        
+        #print Django Terminal
+        print("=================================")
+        print("Question", question.text)
+        print("Selected Option", select_option.text)
+        print("Correct", is_correct)
+        print("=================================")
+        
+        result.append({
+            'question_id' : question_id,
+            'is_correct' : is_correct
+        })
+        
+    return Response({"result":result}, status=status.HTTP_200_OK)
+

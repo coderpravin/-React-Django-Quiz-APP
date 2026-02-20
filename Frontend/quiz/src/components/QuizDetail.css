@@ -80,3 +80,14 @@
 .submit-btn:active {
   transform: translateY(0);
 }
+
+.timer {
+    position: fixed;
+    top: 80px;
+    right: 30px;
+    background-color: rgb(226, 127, 127);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}

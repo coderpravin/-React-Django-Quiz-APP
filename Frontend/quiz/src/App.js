@@ -7,6 +7,7 @@ import Login from  "./components/Login";
 import Signup from './components/Signup';
 import LoginSucess from './components/LoginSucess';
 import QuizDetail from "./components/QuizDetail";
+import Result from "./components/Result";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='/login-success/' element={<LoginSucess></LoginSucess>}></Route>
         <Route path="/quiz/:id" element={<QuizDetail />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
       
     </div>

@@ -12,6 +12,8 @@ urlpatterns = [
     path('user-signup/', views.signup_user, name='user-signup'),
     
     path('quiz/<int:pk>/', views.quiz_detail, name='quiz-detail'),
+    path('quiz-submit/', views.submit_quiz, name='quiz-submit'),
+    
 
     
     
