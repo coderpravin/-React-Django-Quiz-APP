@@ -17,7 +17,7 @@ function QuizDetail() {
         }));
 
         try{
-            const response = await fetch("http://127.0.0.1:8000/api/quiz-submit/", {
+            const response = await fetch("https://react-django-quiz-app.onrender.com/api/quiz-submit/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
