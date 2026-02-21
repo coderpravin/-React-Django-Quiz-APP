@@ -15,6 +15,4 @@ urlpatterns = [
     path('quiz-submit/', views.submit_quiz, name='quiz-submit'),
     
 
-    
-    
 ]

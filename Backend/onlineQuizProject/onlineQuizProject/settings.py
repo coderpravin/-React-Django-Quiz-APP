@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%q1zf&#zq2tl_pi^3+$4+%&v^468&sz$rejk7sh=8@==e%h4!k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "https://react-django-quiz-app.onrender.com",
