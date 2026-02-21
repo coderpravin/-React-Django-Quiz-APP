@@ -1,1 +1,486 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2026-02-18T09:22:40.563Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "pravin1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2026-02-18T09:23:14.118Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "pravin1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2026-02-18T09:26:22.372Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "The Quiz Title is Sports", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2026-02-18T09:28:03.105Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Sports --> Who won T20 World Cup 2021?", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2026-02-18T09:28:58.536Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "The text is New Zealand", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2026-02-18T09:29:38.361Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "The text is West Indies", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2026-02-18T09:30:11.272Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "The text is Australia", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2026-02-18T09:30:30.698Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "The text is England", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2026-02-18T09:41:02.903Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Sports --> Which of these countries has never hosted T20 WC C", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2026-02-18T09:41:45.857Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "The text is West Indies", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2026-02-18T09:41:53.676Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "The text is Australia", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2026-02-18T09:42:24.872Z", "user": 1, "content_type": 8, "object_id": "7", "object_repr": "The text is Bangladesh", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2026-02-18T09:43:18.801Z", "user": 1, "content_type": 8, "object_id": "8", "object_repr": "The text is New Zealand", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2026-02-19T07:59:34.740Z", "user": 1, "content_type": 4, "object_id": "3", "object_repr": "pawa", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2026-02-19T08:13:18.740Z", "user": 1, "content_type": 4, "object_id": "4", "object_repr": "pawa", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2026-02-19T08:13:18.741Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "pawa1", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2026-02-19T08:13:18.741Z", "user": 1, "content_type": 4, "object_id": "6", "object_repr": "pawa2", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2026-02-19T08:13:18.741Z", "user": 1, "content_type": 4, "object_id": "7", "object_repr": "pawa4", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2026-02-20T07:54:36.675Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Sports --> Which player created a world record in T20 in 2024", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2026-02-20T07:55:08.323Z", "user": 1, "content_type": 8, "object_id": "9", "object_repr": "The text is Pat Cummins", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2026-02-20T07:55:29.147Z", "user": 1, "content_type": 8, "object_id": "10", "object_repr": "The text is Kagiso Rabada", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2026-02-20T07:55:49.390Z", "user": 1, "content_type": 8, "object_id": "11", "object_repr": "The text is Jasprit Bumrah", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2026-02-20T07:56:09.552Z", "user": 1, "content_type": 8, "object_id": "12", "object_repr": "The text is Lockie Ferguson", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2026-02-20T08:37:08.441Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "Sports --> How many times has India won the Men's ICC T20 Wor", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2026-02-20T08:37:29.645Z", "user": 1, "content_type": 8, "object_id": "13", "object_repr": "The text is 3", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2026-02-20T08:37:41.038Z", "user": 1, "content_type": 8, "object_id": "14", "object_repr": "The text is 4", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2026-02-20T08:37:49.533Z", "user": 1, "content_type": 8, "object_id": "15", "object_repr": "The text is 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2026-02-20T08:37:55.944Z", "user": 1, "content_type": 8, "object_id": "16", "object_repr": "The text is 5", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2026-02-20T08:40:20.067Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "Sports --> Which Indian Player hit most sixes in the history ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2026-02-20T08:40:51.202Z", "user": 1, "content_type": 8, "object_id": "17", "object_repr": "The text is Virat Kohli", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2026-02-20T08:41:20.033Z", "user": 1, "content_type": 8, "object_id": "18", "object_repr": "The text is Rohit Sharma", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2026-02-20T08:41:42.682Z", "user": 1, "content_type": 8, "object_id": "19", "object_repr": "The text is Hardik Pandya", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2026-02-20T08:42:05.976Z", "user": 1, "content_type": 8, "object_id": "20", "object_repr": "The text is Suryakumar Yadav", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2026-02-20T08:43:57.777Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "Sports --> Who Scored First Century In T20 World Cup", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2026-02-20T08:44:41.402Z", "user": 1, "content_type": 8, "object_id": "21", "object_repr": "The text is Virat Kohli", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2026-02-20T08:44:50.555Z", "user": 1, "content_type": 8, "object_id": "22", "object_repr": "The text is Rohit Sharma", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2026-02-20T08:45:47.738Z", "user": 1, "content_type": 8, "object_id": "23", "object_repr": "The text is Suresh Raina", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2026-02-20T08:46:02.960Z", "user": 1, "content_type": 8, "object_id": "24", "object_repr": "The text is Chris Gayle", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2026-02-20T08:49:50.542Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "Sports --> Who took the most wickets among Indian fast bowler", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2026-02-20T08:50:28.485Z", "user": 1, "content_type": 8, "object_id": "25", "object_repr": "The text is Jasprit Bumrah", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2026-02-20T08:50:45.750Z", "user": 1, "content_type": 8, "object_id": "26", "object_repr": "The text is Arshdeep Singh", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2026-02-20T08:51:11.086Z", "user": 1, "content_type": 8, "object_id": "27", "object_repr": "The text is Mohammed Shami", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2026-02-20T08:52:07.426Z", "user": 1, "content_type": 8, "object_id": "28", "object_repr": "The text is Mohammed Siraj", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2026-02-20T08:53:08.576Z", "user": 1, "content_type": 7, "object_id": "8", "object_repr": "Sports --> Which Country Called Father of Cricket", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2026-02-20T08:53:22.466Z", "user": 1, "content_type": 8, "object_id": "29", "object_repr": "The text is Australia", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2026-02-20T08:53:29.287Z", "user": 1, "content_type": 8, "object_id": "30", "object_repr": "The text is India", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2026-02-20T08:53:35.912Z", "user": 1, "content_type": 8, "object_id": "31", "object_repr": "The text is England", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2026-02-20T08:53:46.232Z", "user": 1, "content_type": 8, "object_id": "32", "object_repr": "The text is Bangladesh", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2026-02-20T08:53:52.775Z", "user": 1, "content_type": 8, "object_id": "31", "object_repr": "The text is England", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Is correct\"]}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2026-02-20T08:55:23.542Z", "user": 1, "content_type": 7, "object_id": "9", "object_repr": "Sports --> Who Scored Most Centuries in IPL", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2026-02-20T08:55:39.695Z", "user": 1, "content_type": 8, "object_id": "33", "object_repr": "The text is Chris Gayle", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2026-02-20T08:55:49.863Z", "user": 1, "content_type": 8, "object_id": "34", "object_repr": "The text is Jos Buttler", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2026-02-20T08:56:00.148Z", "user": 1, "content_type": 8, "object_id": "35", "object_repr": "The text is Virat Kohli", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2026-02-20T08:56:31.351Z", "user": 1, "content_type": 8, "object_id": "36", "object_repr": "The text is David Warner", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2026-02-20T09:00:19.806Z", "user": 1, "content_type": 7, "object_id": "10", "object_repr": "Sports --> Who won the 2nd edition of the IPL?", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2026-02-20T09:01:12.091Z", "user": 1, "content_type": 8, "object_id": "37", "object_repr": "The text is Rajasthan Royals", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2026-02-20T09:01:26.051Z", "user": 1, "content_type": 8, "object_id": "38", "object_repr": "The text is Royal Challengers Bangalore", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2026-02-20T09:01:41.651Z", "user": 1, "content_type": 8, "object_id": "39", "object_repr": "The text is Deccan Chargers", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2026-02-20T09:01:57.874Z", "user": 1, "content_type": 8, "object_id": "40", "object_repr": "The text is Royal Challengers Bangalore", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2026-02-20T09:02:29.269Z", "user": 1, "content_type": 8, "object_id": "40", "object_repr": "The text is Chennai Super Kings", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2026-02-20T09:06:41.924Z", "user": 1, "content_type": 7, "object_id": "11", "object_repr": "Sports --> Who was the first cricketer to score a double cent", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2026-02-20T09:06:59.267Z", "user": 1, "content_type": 8, "object_id": "41", "object_repr": "The text is Rohit Sharma", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2026-02-20T09:07:37.314Z", "user": 1, "content_type": 8, "object_id": "42", "object_repr": "The text is Martin Guptil", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2026-02-20T09:08:00.853Z", "user": 1, "content_type": 8, "object_id": "43", "object_repr": "The text is Sachin Tendulkar", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2026-02-20T09:08:17.743Z", "user": 1, "content_type": 8, "object_id": "44", "object_repr": "The text is Virendra Sehwag", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2026-02-20T09:13:00.896Z", "user": 1, "content_type": 7, "object_id": "12", "object_repr": "Sports --> Who was the first batsman to score 10,000 Test run", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2026-02-20T09:13:15.203Z", "user": 1, "content_type": 8, "object_id": "45", "object_repr": "The text is Sachin Tendulkar", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2026-02-20T09:13:40.493Z", "user": 1, "content_type": 8, "object_id": "46", "object_repr": "The text is Allan Border", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2026-02-20T09:13:57.973Z", "user": 1, "content_type": 8, "object_id": "47", "object_repr": "The text is Sunil Gavaskar", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2026-02-20T09:14:20.457Z", "user": 1, "content_type": 8, "object_id": "48", "object_repr": "The text is Alastair Cook", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2026-02-20T09:18:22.194Z", "user": 1, "content_type": 8, "object_id": "47", "object_repr": "The text is Sunil Gavaskar", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2026-02-20T09:18:40.156Z", "user": 1, "content_type": 7, "object_id": "13", "object_repr": "Sports --> Who became the third Indian Test player to take a ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 73, "fields": {"action_time": "2026-02-20T09:19:57.053Z", "user": 1, "content_type": 8, "object_id": "49", "object_repr": "The text is Ravichandran Ashwin", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 74, "fields": {"action_time": "2026-02-20T09:20:18.117Z", "user": 1, "content_type": 8, "object_id": "50", "object_repr": "The text is Pragyan Ojha", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 75, "fields": {"action_time": "2026-02-20T09:20:47.146Z", "user": 1, "content_type": 8, "object_id": "51", "object_repr": "The text is Ishant Sharma", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 76, "fields": {"action_time": "2026-02-20T09:20:59.361Z", "user": 1, "content_type": 8, "object_id": "52", "object_repr": "The text is Jasprit Bumrah", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 77, "fields": {"action_time": "2026-02-20T09:22:55.304Z", "user": 1, "content_type": 7, "object_id": "14", "object_repr": "Sports --> Who was the first Indian cricketer to take two hat", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 78, "fields": {"action_time": "2026-02-20T09:23:10.344Z", "user": 1, "content_type": 8, "object_id": "53", "object_repr": "The text is Jasprit Bumrah", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 79, "fields": {"action_time": "2026-02-20T09:23:19.239Z", "user": 1, "content_type": 8, "object_id": "54", "object_repr": "The text is Ravichandran Ashwin", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 80, "fields": {"action_time": "2026-02-20T09:23:36.319Z", "user": 1, "content_type": 8, "object_id": "55", "object_repr": "The text is Kuldeep Yadav", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 81, "fields": {"action_time": "2026-02-20T09:23:55.341Z", "user": 1, "content_type": 8, "object_id": "56", "object_repr": "The text is Yuzvendra Chahal", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 82, "fields": {"action_time": "2026-02-20T09:25:16.993Z", "user": 1, "content_type": 7, "object_id": "15", "object_repr": "Sports --> Green Park Stadium is situated in which city?”", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 83, "fields": {"action_time": "2026-02-20T09:25:34.037Z", "user": 1, "content_type": 8, "object_id": "57", "object_repr": "The text is Indore", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 84, "fields": {"action_time": "2026-02-20T09:25:45.232Z", "user": 1, "content_type": 8, "object_id": "58", "object_repr": "The text is Rajkot", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 85, "fields": {"action_time": "2026-02-20T09:26:00.174Z", "user": 1, "content_type": 8, "object_id": "59", "object_repr": "The text is Kanpur", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 86, "fields": {"action_time": "2026-02-20T09:26:10.349Z", "user": 1, "content_type": 8, "object_id": "60", "object_repr": "The text is Gwalior", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 87, "fields": {"action_time": "2026-02-20T09:26:14.973Z", "user": 1, "content_type": 8, "object_id": "59", "object_repr": "The text is Kanpur", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Is correct\"]}}]"}}, {"model": "admin.logentry", "pk": 88, "fields": {"action_time": "2026-02-20T09:30:39.631Z", "user": 1, "content_type": 7, "object_id": "16", "object_repr": "Sports --> Which sport was performed by the legendary Muhamma", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 89, "fields": {"action_time": "2026-02-20T09:30:59.679Z", "user": 1, "content_type": 8, "object_id": "61", "object_repr": "The text is Shooting", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 90, "fields": {"action_time": "2026-02-20T09:31:10.926Z", "user": 1, "content_type": 8, "object_id": "62", "object_repr": "The text is Weight Lifting", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 91, "fields": {"action_time": "2026-02-20T09:31:22.708Z", "user": 1, "content_type": 8, "object_id": "63", "object_repr": "The text is Swimming", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 92, "fields": {"action_time": "2026-02-20T09:31:32.247Z", "user": 1, "content_type": 8, "object_id": "64", "object_repr": "The text is Boxing", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 93, "fields": {"action_time": "2026-02-20T09:34:08.862Z", "user": 1, "content_type": 7, "object_id": "17", "object_repr": "Sports --> Which sport was played by Roger Federer?", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 94, "fields": {"action_time": "2026-02-20T09:34:25.552Z", "user": 1, "content_type": 8, "object_id": "65", "object_repr": "The text is Badminton", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 95, "fields": {"action_time": "2026-02-20T09:34:38.162Z", "user": 1, "content_type": 8, "object_id": "66", "object_repr": "The text is Table Tennis", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 96, "fields": {"action_time": "2026-02-20T09:34:52.393Z", "user": 1, "content_type": 8, "object_id": "67", "object_repr": "The text is Volleyball", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 97, "fields": {"action_time": "2026-02-20T09:35:04.165Z", "user": 1, "content_type": 8, "object_id": "68", "object_repr": "The text is Tennis", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 98, "fields": {"action_time": "2026-02-20T09:37:00.581Z", "user": 1, "content_type": 7, "object_id": "18", "object_repr": "Sports --> What is the National Game of New Zealand?", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 99, "fields": {"action_time": "2026-02-20T09:37:20.039Z", "user": 1, "content_type": 8, "object_id": "69", "object_repr": "The text is Golf", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 100, "fields": {"action_time": "2026-02-20T09:37:30.870Z", "user": 1, "content_type": 8, "object_id": "70", "object_repr": "The text is Rubby", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 101, "fields": {"action_time": "2026-02-20T09:37:44.446Z", "user": 1, "content_type": 8, "object_id": "71", "object_repr": "The text is Cricket", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 102, "fields": {"action_time": "2026-02-20T09:38:03.203Z", "user": 1, "content_type": 8, "object_id": "72", "object_repr": "The text is Football", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 103, "fields": {"action_time": "2026-02-20T09:51:09.679Z", "user": 1, "content_type": 7, "object_id": "19", "object_repr": "Sports --> How many times has West Indies lifted the T20 Worl", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 104, "fields": {"action_time": "2026-02-20T09:51:23.687Z", "user": 1, "content_type": 8, "object_id": "73", "object_repr": "The text is 1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 105, "fields": {"action_time": "2026-02-20T09:51:32.455Z", "user": 1, "content_type": 8, "object_id": "74", "object_repr": "The text is 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 106, "fields": {"action_time": "2026-02-20T09:51:39.069Z", "user": 1, "content_type": 8, "object_id": "75", "object_repr": "The text is 3", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 107, "fields": {"action_time": "2026-02-20T09:51:50.367Z", "user": 1, "content_type": 8, "object_id": "76", "object_repr": "The text is 4", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 108, "fields": {"action_time": "2026-02-20T09:53:06.976Z", "user": 1, "content_type": 7, "object_id": "20", "object_repr": "Sports --> Who is the only batsman to score two centuries in ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 109, "fields": {"action_time": "2026-02-20T09:53:22.584Z", "user": 1, "content_type": 8, "object_id": "77", "object_repr": "The text is Virat Kohli", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 110, "fields": {"action_time": "2026-02-20T09:53:35.723Z", "user": 1, "content_type": 8, "object_id": "78", "object_repr": "The text is Rohit Sharma", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 111, "fields": {"action_time": "2026-02-20T09:53:50.100Z", "user": 1, "content_type": 8, "object_id": "79", "object_repr": "The text is Chris Gayle", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 112, "fields": {"action_time": "2026-02-20T09:53:58.215Z", "user": 1, "content_type": 8, "object_id": "80", "object_repr": "The text is Martin Guptil", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add question", "content_type": 7, "codename": "add_question"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change question", "content_type": 7, "codename": "change_question"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete question", "content_type": 7, "codename": "delete_question"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view question", "content_type": 7, "codename": "view_question"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add option", "content_type": 8, "codename": "add_option"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change option", "content_type": 8, "codename": "change_option"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete option", "content_type": 8, "codename": "delete_option"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view option", "content_type": 8, "codename": "view_option"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add quiz", "content_type": 9, "codename": "add_quiz"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change quiz", "content_type": 9, "codename": "change_quiz"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete quiz", "content_type": 9, "codename": "delete_quiz"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view quiz", "content_type": 9, "codename": "view_quiz"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add quiz attempt", "content_type": 10, "codename": "add_quizattempt"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change quiz attempt", "content_type": 10, "codename": "change_quizattempt"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete quiz attempt", "content_type": 10, "codename": "delete_quizattempt"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view quiz attempt", "content_type": 10, "codename": "view_quizattempt"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add answer", "content_type": 11, "codename": "add_answer"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change answer", "content_type": 11, "codename": "change_answer"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete answer", "content_type": 11, "codename": "delete_answer"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view answer", "content_type": 11, "codename": "view_answer"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$1000000$w75Zb8acKoCYzAJZ46VISk$XqxuI/iQ4//oa8+ypEPKllwFMqclMbw1vG9Rc+Jzf2c=", "last_login": "2026-02-18T09:21:36.006Z", "is_superuser": true, "username": "admin", "first_name": "", "last_name": "", "email": "impravin00@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2026-02-18T09:21:03.631Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$1000000$i54wJCPzSHTl1EIUoGnGQZ$PluXnlWIKr8ocv4p3m/TAgFRTwkOlYs03ocHapfddDw=", "last_login": "2026-02-20T07:18:45.142Z", "is_superuser": false, "username": "pravin1", "first_name": "pravin", "last_name": "patil", "email": "pravin0324@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2026-02-18T09:22:39Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 8, "fields": {"password": "pbkdf2_sha256$1000000$KtShgEOMxvvWtK6o4vujgR$wLBKoFu2Z7aelsWyzB7IhdbPwiQJJ625kQFTQ6xDv3o=", "last_login": null, "is_superuser": false, "username": "pawa4", "first_name": "", "last_name": "", "email": "pravin04@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2026-02-19T08:13:38.246Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "core", "model": "question"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "core", "model": "option"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "core", "model": "quiz"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "core", "model": "quizattempt"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "core", "model": "answer"}}, {"model": "sessions.session", "pk": "2vdnq7vrej6of4yzckdh019fc8bgqfil", "fields": {"session_data": ".eJxVjDsOwyAQRO9CHaHFZhdImd5nQHyDkwgkY1dR7h5bcpE0U8x7M29m3bYWu_W02DmyKxPs8tt5F56pHiA-XL03Hlpdl9nzQ-En7XxqMb1up_t3UFwv-zrTGJSnMQkKWigJDsBrI5HQK5UjSU0CUDqDZBAVZC-GnOUeaAgG9vkCuKQ2YQ:1vsdkW:RSdXCyWvpyhwJXSYNH02uHH6bSKp7JKzxHmpbz545r0", "expire_date": "2026-03-04T09:21:36.014Z"}}, {"model": "sessions.session", "pk": "e4y2538drr6gmfd3bs1dasjasv4h32ln", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vsxaR:PuioZFZGIKU_Zj6josBwaEeP6MnlikewYXLQAfGlBuw", "expire_date": "2026-03-05T06:32:31.922Z"}}, {"model": "sessions.session", "pk": "l6l46jjsrlb7a2di6xa827pr6543e283", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vsxXa:UNbQLXI9uM1ZFFUmBrckbB8eEU6XHqZ_tMez3Haz1s4", "expire_date": "2026-03-05T06:29:34.671Z"}}, {"model": "sessions.session", "pk": "mb53a1okigv3v9g2l4h08u8bmvw29jov", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vtKmj:dyYp1jT7DGAQ7m9NXS_o6Imn6jCdy_2JFZDT-Yvt3T4", "expire_date": "2026-03-06T07:18:45.155Z"}}, {"model": "sessions.session", "pk": "n7zue9poo14dy2c9jhqkywdgdd1qdq5k", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vsxNf:M5lwXx8j_SjEa4Ld7JEot1y-NtDpgmAdspFrwRUCThM", "expire_date": "2026-03-05T06:19:19.874Z"}}, {"model": "sessions.session", "pk": "s6syf9h8hvbyn9a9483qfs86pjppiui1", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vt1SI:0iPBIlQluF9qqPlHB7-d2IIUG6NrFcv-obOjXRGhw5M", "expire_date": "2026-03-05T10:40:22.106Z"}}, {"model": "sessions.session", "pk": "xivnz63jq7ww4tgipvya6oldlpf42urz", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vsxY8:J4iVE3FA6frxecUnrNsYnf3KVVmmC6eTztwMtjjbpFY", "expire_date": "2026-03-05T06:30:08.782Z"}}, {"model": "sessions.session", "pk": "xqa15jtmcyquv9hdxzpv64666uvn6krk", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vt1U6:vF2dNHDkfpZdRhQwJgU-s7olQtk3TL06USQ2n_40OT8", "expire_date": "2026-03-05T10:42:14.527Z"}}, {"model": "sessions.session", "pk": "yykf0h4o8v2hnx75q963ajaa7rjrv130", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMDwdcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtIzntsqHiNGUs-mxcisFqMCQALVgjiwaiaAsYgRKEUE4FTGiTUojs_QHj8jco:1vt0eY:E3U8gIl3Q--0ixIbn0EoGK-6D0EfqnbWoxwb03bc8kQ", "expire_date": "2026-03-05T09:48:58.699Z"}}, {"model": "core.quiz", "pk": 1, "fields": {"title": "Sports", "description": "Cricket Match", "duration_minute": 30, "created_by": 1, "created_at": "2026-02-18"}}, {"model": "core.question", "pk": 1, "fields": {"quiz": 1, "text": "Who won T20 World Cup 2021?"}}, {"model": "core.question", "pk": 2, "fields": {"quiz": 1, "text": "Which of these countries has never hosted T20 WC Cups?"}}, {"model": "core.question", "pk": 3, "fields": {"quiz": 1, "text": "Which player created a world record in T20 in 2024 by bowling four consecutive maiden overs?"}}, {"model": "core.question", "pk": 4, "fields": {"quiz": 1, "text": "How many times has India won the Men's ICC T20 World Cup?"}}, {"model": "core.question", "pk": 5, "fields": {"quiz": 1, "text": "Which Indian Player hit most sixes in the history of T20 World Cup"}}, {"model": "core.question", "pk": 6, "fields": {"quiz": 1, "text": "Who Scored First Century In T20 World Cup"}}, {"model": "core.question", "pk": 7, "fields": {"quiz": 1, "text": "Who took the most wickets among Indian fast bowlers in the T20 World Cup 2024?"}}, {"model": "core.question", "pk": 8, "fields": {"quiz": 1, "text": "Which Country Called Father of Cricket"}}, {"model": "core.question", "pk": 9, "fields": {"quiz": 1, "text": "Who Scored Most Centuries in IPL"}}, {"model": "core.question", "pk": 10, "fields": {"quiz": 1, "text": "Who won the 2nd edition of the IPL?"}}, {"model": "core.question", "pk": 11, "fields": {"quiz": 1, "text": "Who was the first cricketer to score a double century in an ODI?"}}, {"model": "core.question", "pk": 12, "fields": {"quiz": 1, "text": "Who was the first batsman to score 10,000 Test runs in Test cricket?"}}, {"model": "core.question", "pk": 13, "fields": {"quiz": 1, "text": "Who became the third Indian Test player to take a hat-trick after Harbhajan Singh and Irfan Pathan?"}}, {"model": "core.question", "pk": 14, "fields": {"quiz": 1, "text": "Who was the first Indian cricketer to take two hat-tricks in One Day Internationals (ODIs)?"}}, {"model": "core.question", "pk": 15, "fields": {"quiz": 1, "text": "Green Park Stadium is situated in which city?”"}}, {"model": "core.question", "pk": 16, "fields": {"quiz": 1, "text": "Which sport was performed by the legendary Muhammad Ali?"}}, {"model": "core.question", "pk": 17, "fields": {"quiz": 1, "text": "Which sport was played by Roger Federer?"}}, {"model": "core.question", "pk": 18, "fields": {"quiz": 1, "text": "What is the National Game of New Zealand?"}}, {"model": "core.question", "pk": 19, "fields": {"quiz": 1, "text": "How many times has West Indies lifted the T20 World Cup trophy?"}}, {"model": "core.question", "pk": 20, "fields": {"quiz": 1, "text": "Who is the only batsman to score two centuries in the T20 World Cup?"}}, {"model": "core.option", "pk": 1, "fields": {"question": 1, "text": "New Zealand", "is_correct": false}}, {"model": "core.option", "pk": 2, "fields": {"question": 1, "text": "West Indies", "is_correct": false}}, {"model": "core.option", "pk": 3, "fields": {"question": 1, "text": "Australia", "is_correct": true}}, {"model": "core.option", "pk": 4, "fields": {"question": 1, "text": "England", "is_correct": false}}, {"model": "core.option", "pk": 5, "fields": {"question": 2, "text": "West Indies", "is_correct": false}}, {"model": "core.option", "pk": 6, "fields": {"question": 2, "text": "Australia", "is_correct": false}}, {"model": "core.option", "pk": 7, "fields": {"question": 2, "text": "Bangladesh", "is_correct": false}}, {"model": "core.option", "pk": 8, "fields": {"question": 2, "text": "New Zealand", "is_correct": true}}, {"model": "core.option", "pk": 9, "fields": {"question": 3, "text": "Pat Cummins", "is_correct": false}}, {"model": "core.option", "pk": 10, "fields": {"question": 3, "text": "Kagiso Rabada", "is_correct": false}}, {"model": "core.option", "pk": 11, "fields": {"question": 3, "text": "Jasprit Bumrah", "is_correct": false}}, {"model": "core.option", "pk": 12, "fields": {"question": 3, "text": "Lockie Ferguson", "is_correct": true}}, {"model": "core.option", "pk": 13, "fields": {"question": 4, "text": "3", "is_correct": false}}, {"model": "core.option", "pk": 14, "fields": {"question": 4, "text": "4", "is_correct": false}}, {"model": "core.option", "pk": 15, "fields": {"question": 4, "text": "2", "is_correct": true}}, {"model": "core.option", "pk": 16, "fields": {"question": 4, "text": "5", "is_correct": false}}, {"model": "core.option", "pk": 17, "fields": {"question": 5, "text": "Virat Kohli", "is_correct": false}}, {"model": "core.option", "pk": 18, "fields": {"question": 5, "text": "Rohit Sharma", "is_correct": true}}, {"model": "core.option", "pk": 19, "fields": {"question": 5, "text": "Hardik Pandya", "is_correct": false}}, {"model": "core.option", "pk": 20, "fields": {"question": 5, "text": "Suryakumar Yadav", "is_correct": false}}, {"model": "core.option", "pk": 21, "fields": {"question": 6, "text": "Virat Kohli", "is_correct": false}}, {"model": "core.option", "pk": 22, "fields": {"question": 6, "text": "Rohit Sharma", "is_correct": false}}, {"model": "core.option", "pk": 23, "fields": {"question": 6, "text": "Suresh Raina", "is_correct": false}}, {"model": "core.option", "pk": 24, "fields": {"question": 6, "text": "Chris Gayle", "is_correct": true}}, {"model": "core.option", "pk": 25, "fields": {"question": 7, "text": "Jasprit Bumrah", "is_correct": false}}, {"model": "core.option", "pk": 26, "fields": {"question": 7, "text": "Arshdeep Singh", "is_correct": true}}, {"model": "core.option", "pk": 27, "fields": {"question": 7, "text": "Mohammed Shami", "is_correct": false}}, {"model": "core.option", "pk": 28, "fields": {"question": 7, "text": "Mohammed Siraj", "is_correct": false}}, {"model": "core.option", "pk": 29, "fields": {"question": 8, "text": "Australia", "is_correct": false}}, {"model": "core.option", "pk": 30, "fields": {"question": 8, "text": "India", "is_correct": false}}, {"model": "core.option", "pk": 31, "fields": {"question": 8, "text": "England", "is_correct": true}}, {"model": "core.option", "pk": 32, "fields": {"question": 8, "text": "Bangladesh", "is_correct": false}}, {"model": "core.option", "pk": 33, "fields": {"question": 9, "text": "Chris Gayle", "is_correct": false}}, {"model": "core.option", "pk": 34, "fields": {"question": 9, "text": "Jos Buttler", "is_correct": false}}, {"model": "core.option", "pk": 35, "fields": {"question": 9, "text": "Virat Kohli", "is_correct": true}}, {"model": "core.option", "pk": 36, "fields": {"question": 9, "text": "David Warner", "is_correct": false}}, {"model": "core.option", "pk": 37, "fields": {"question": 10, "text": "Rajasthan Royals", "is_correct": false}}, {"model": "core.option", "pk": 38, "fields": {"question": 10, "text": "Royal Challengers Bangalore", "is_correct": false}}, {"model": "core.option", "pk": 39, "fields": {"question": 10, "text": "Deccan Chargers", "is_correct": true}}, {"model": "core.option", "pk": 40, "fields": {"question": 10, "text": "Chennai Super Kings", "is_correct": false}}, {"model": "core.option", "pk": 41, "fields": {"question": 11, "text": "Rohit Sharma", "is_correct": false}}, {"model": "core.option", "pk": 42, "fields": {"question": 11, "text": "Martin Guptil", "is_correct": false}}, {"model": "core.option", "pk": 43, "fields": {"question": 11, "text": "Sachin Tendulkar", "is_correct": true}}, {"model": "core.option", "pk": 44, "fields": {"question": 11, "text": "Virendra Sehwag", "is_correct": false}}, {"model": "core.option", "pk": 45, "fields": {"question": 12, "text": "Sachin Tendulkar", "is_correct": false}}, {"model": "core.option", "pk": 46, "fields": {"question": 12, "text": "Allan Border", "is_correct": false}}, {"model": "core.option", "pk": 47, "fields": {"question": 12, "text": "Sunil Gavaskar", "is_correct": true}}, {"model": "core.option", "pk": 48, "fields": {"question": 12, "text": "Alastair Cook", "is_correct": false}}, {"model": "core.option", "pk": 49, "fields": {"question": 13, "text": "Ravichandran Ashwin", "is_correct": false}}, {"model": "core.option", "pk": 50, "fields": {"question": 13, "text": "Pragyan Ojha", "is_correct": false}}, {"model": "core.option", "pk": 51, "fields": {"question": 13, "text": "Ishant Sharma", "is_correct": false}}, {"model": "core.option", "pk": 52, "fields": {"question": 13, "text": "Jasprit Bumrah", "is_correct": true}}, {"model": "core.option", "pk": 53, "fields": {"question": 14, "text": "Jasprit Bumrah", "is_correct": false}}, {"model": "core.option", "pk": 54, "fields": {"question": 14, "text": "Ravichandran Ashwin", "is_correct": false}}, {"model": "core.option", "pk": 55, "fields": {"question": 14, "text": "Kuldeep Yadav", "is_correct": true}}, {"model": "core.option", "pk": 56, "fields": {"question": 14, "text": "Yuzvendra Chahal", "is_correct": false}}, {"model": "core.option", "pk": 57, "fields": {"question": 15, "text": "Indore", "is_correct": false}}, {"model": "core.option", "pk": 58, "fields": {"question": 15, "text": "Rajkot", "is_correct": false}}, {"model": "core.option", "pk": 59, "fields": {"question": 15, "text": "Kanpur", "is_correct": true}}, {"model": "core.option", "pk": 60, "fields": {"question": 15, "text": "Gwalior", "is_correct": false}}, {"model": "core.option", "pk": 61, "fields": {"question": 16, "text": "Shooting", "is_correct": false}}, {"model": "core.option", "pk": 62, "fields": {"question": 16, "text": "Weight Lifting", "is_correct": false}}, {"model": "core.option", "pk": 63, "fields": {"question": 16, "text": "Swimming", "is_correct": false}}, {"model": "core.option", "pk": 64, "fields": {"question": 16, "text": "Boxing", "is_correct": true}}, {"model": "core.option", "pk": 65, "fields": {"question": 17, "text": "Badminton", "is_correct": false}}, {"model": "core.option", "pk": 66, "fields": {"question": 17, "text": "Table Tennis", "is_correct": false}}, {"model": "core.option", "pk": 67, "fields": {"question": 17, "text": "Volleyball", "is_correct": false}}, {"model": "core.option", "pk": 68, "fields": {"question": 17, "text": "Tennis", "is_correct": true}}, {"model": "core.option", "pk": 69, "fields": {"question": 18, "text": "Golf", "is_correct": false}}, {"model": "core.option", "pk": 70, "fields": {"question": 18, "text": "Rubby", "is_correct": true}}, {"model": "core.option", "pk": 71, "fields": {"question": 18, "text": "Cricket", "is_correct": false}}, {"model": "core.option", "pk": 72, "fields": {"question": 18, "text": "Football", "is_correct": false}}, {"model": "core.option", "pk": 73, "fields": {"question": 19, "text": "1", "is_correct": false}}, {"model": "core.option", "pk": 74, "fields": {"question": 19, "text": "2", "is_correct": true}}, {"model": "core.option", "pk": 75, "fields": {"question": 19, "text": "3", "is_correct": false}}, {"model": "core.option", "pk": 76, "fields": {"question": 19, "text": "4", "is_correct": false}}, {"model": "core.option", "pk": 77, "fields": {"question": 20, "text": "Virat Kohli", "is_correct": false}}, {"model": "core.option", "pk": 78, "fields": {"question": 20, "text": "Rohit Sharma", "is_correct": false}}, {"model": "core.option", "pk": 79, "fields": {"question": 20, "text": "Chris Gayle", "is_correct": true}}, {"model": "core.option", "pk": 80, "fields": {"question": 20, "text": "Martin Guptil", "is_correct": false}}]
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add question",
+        "content_type": 7,
+        "codename": "add_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change question",
+        "content_type": 7,
+        "codename": "change_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete question",
+        "content_type": 7,
+        "codename": "delete_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view question",
+        "content_type": 7,
+        "codename": "view_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add option",
+        "content_type": 8,
+        "codename": "add_option"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change option",
+        "content_type": 8,
+        "codename": "change_option"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete option",
+        "content_type": 8,
+        "codename": "delete_option"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view option",
+        "content_type": 8,
+        "codename": "view_option"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add quiz",
+        "content_type": 9,
+        "codename": "add_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change quiz",
+        "content_type": 9,
+        "codename": "change_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete quiz",
+        "content_type": 9,
+        "codename": "delete_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view quiz",
+        "content_type": 9,
+        "codename": "view_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add quiz attempt",
+        "content_type": 10,
+        "codename": "add_quizattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change quiz attempt",
+        "content_type": 10,
+        "codename": "change_quizattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete quiz attempt",
+        "content_type": 10,
+        "codename": "delete_quizattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view quiz attempt",
+        "content_type": 10,
+        "codename": "view_quizattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add answer",
+        "content_type": 11,
+        "codename": "add_answer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change answer",
+        "content_type": 11,
+        "codename": "change_answer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete answer",
+        "content_type": 11,
+        "codename": "delete_answer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view answer",
+        "content_type": 11,
+        "codename": "view_answer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "core",
+        "model": "question"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "core",
+        "model": "option"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "core",
+        "model": "quiz"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "core",
+        "model": "quizattempt"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "core",
+        "model": "answer"
+    }
+}
+]
