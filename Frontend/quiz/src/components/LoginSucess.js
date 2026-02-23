@@ -9,7 +9,7 @@ function LoginSucess() {
 
     //Fetch List when page open
     useEffect(() => {
-        fetch("https://react-django-quiz-app-1.onrender.com/api/quiz-list/")
+        fetch("https://react-django-quiz-app.onrender.com/api/quiz-list/")
             .then((res) => res.json())
             .then((data) => setQuizzes(data))
             .catch((error) => console.log("the Error is", error));
@@ -17,7 +17,7 @@ function LoginSucess() {
 
     const handleLogout = async () => {
         try {
-            await fetch("https://react-django-quiz-app-1.onrender.com/api/user-logout/", {
+            await fetch("https://react-django-quiz-app.onrender.com/api/user-logout/", {
                 method: "POST"
             });
 

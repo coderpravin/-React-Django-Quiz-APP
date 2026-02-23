@@ -16,10 +16,10 @@ function Navbar(){
         checkLogin();
 
         // Listen for localStorage changes
-        window.addEventListener("storage", checkLogin);
+        window.addEventListener("loginStatusChanged", checkLogin);
 
         return () => {
-            window.removeEventListener("storage", checkLogin)
+            window.removeEventListener("loginStatusChanged", checkLogin)
 
         };
 
@@ -27,7 +27,7 @@ function Navbar(){
 
     const handleLogout  = async () => {
         try {
-            await fetch("https://react-django-quiz-app-1.onrender.com/api/user-logout/", {
+            await fetch("https://react-django-quiz-app.onrender.com/api/user-logout/", {
                 method: "POST",
             });
 

@@ -37,7 +37,7 @@
                 if (data.success){
                     console.log("Login Sucess");
                     localStorage.setItem("isLoggedIn", "true");
-
+                    window.dispatchEvent(new Event("loginStatusChanged"));
                     navigate("/login-success/");
                     // window.location.reload();   // ⭐ add this line
 
