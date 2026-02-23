@@ -24,6 +24,11 @@
                     body: JSON.stringify({ email, password }),
                 });
 
+                if (!res.ok){
+                    throw new Error("Server Error "+ res.status)
+                }
+
+
                 const data = await res.json();
 
                 if (res.ok && data.success){
