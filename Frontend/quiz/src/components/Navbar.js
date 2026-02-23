@@ -27,7 +27,7 @@ function Navbar(){
 
     const handleLogout  = async () => {
         try {
-            await fetch("https://react-django-quiz-app.onrender.com/api/user-logout/", {
+            await fetch("https://react-django-quiz-app-1.onrender.com/api/user-logout/", {
                 method: "POST",
             });
 

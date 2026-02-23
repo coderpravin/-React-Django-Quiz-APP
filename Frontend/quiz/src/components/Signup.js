@@ -25,7 +25,7 @@ function Signup(){
         }
 
         try{
-            const res = await fetch ("http://127.0.0.1:8000/api/user-signup/",{
+            const res = await fetch ("https://react-django-quiz-app-1.onrender.com/api/user-signup/",{
                 method:"POST",
                 headers: {
                 "Content-Type": "application/json",

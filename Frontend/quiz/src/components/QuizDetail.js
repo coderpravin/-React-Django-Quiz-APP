@@ -17,7 +17,7 @@ function QuizDetail() {
         }));
 
         try{
-            const response = await fetch("https://react-django-quiz-app.onrender.com/api/quiz-submit/", {
+            const response = await fetch("https://react-django-quiz-app-1.onrender.com/api/quiz-submit/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
