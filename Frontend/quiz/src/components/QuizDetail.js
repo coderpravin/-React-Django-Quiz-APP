@@ -37,7 +37,7 @@ function QuizDetail() {
 };
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:8000/api/quiz/${id}/`)
+    fetch(`https://react-django-quiz-app.onrender.com/quiz/${id}/`)
         .then((res) => res.json())
         .then((data) => {
             setQuiz(data);
