@@ -24,20 +24,31 @@
                     body: JSON.stringify({ email, password }),
                 });
 
+                console.log("STATUS:", res.status);
+
+                const text = await res.text();
+                console.log("RAW RESPONSE:", text);
+
+
                 if (!res.ok){
                     throw new Error("Server Error "+ res.status)
                 }
 
 
                 const data = await res.json();
+                console.log("PARSED DATA:", data);
 
-                if (res.ok && data.success){
+                if (data.success){
+                    console.log("Login Sucess");
                     localStorage.setItem("isLoggedIn", "true");
-                       navigate("/login-success/");
-                    window.location.reload();   // ⭐ add this line
 
-                }else {
+                    navigate("/login-success/");
+                    // window.location.reload();   // ⭐ add this line
+
+                } else{
+                    console.log("Login Failed");
                     setError(data.message || "Invalid Credentials");
+
                 }
             } catch(error){
                 console.error("The error is", error);

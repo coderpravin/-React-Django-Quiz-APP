@@ -8,8 +8,21 @@ function Navbar(){
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     useEffect(() => {
-        const loginStatus = localStorage.getItem("isLoggedIn");
-        setIsLoggedIn(loginStatus === "true");
+        const checkLogin = () =>{
+                    const loginStatus = localStorage.getItem("isLoggedIn");
+                    setIsLoggedIn(loginStatus === "true");
+        };
+
+        checkLogin();
+
+        // Listen for localStorage changes
+        window.addEventListener("storage", checkLogin);
+
+        return () => {
+            window.removeEventListener("storage", checkLogin)
+
+        };
+
     }, []);
 
     const handleLogout  = async () => {
@@ -19,8 +32,9 @@ function Navbar(){
             });
 
             localStorage.removeItem("isLoggedIn");  // ⭐ remove login state
+            setIsLoggedIn(false);
             navigate("/login");
-            window.location.reload(); // refresh navbar state
+
         } catch (error) {
             console.error("Logout error:", error);
         }
