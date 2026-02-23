@@ -16,7 +16,7 @@
             console.log("LOGIN CLICKED");  
 
             try{
-                const res = await fetch("https://react-django-quiz-app-1.onrender.com/login/",{
+                const res = await fetch("https://react-django-quiz-app-1.onrender.com/api/user-login/",{
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
