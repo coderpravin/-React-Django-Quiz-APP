@@ -16,7 +16,7 @@
             console.log("LOGIN CLICKED");  
 
             try{
-                const res = await fetch("https://react-django-quiz-app-1.onrender.com/api/user-login/",{
+                const res = await fetch("https://react-django-quiz-app.onrender.com/user-login/",{
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -33,7 +33,7 @@
 
                 if (res.ok && data.success){
                     localStorage.setItem("isLoggedIn", "true");
-                    navigate("/login-success/");
+                       navigate("/login-success/");
                     window.location.reload();   // ⭐ add this line
 
                 }else {

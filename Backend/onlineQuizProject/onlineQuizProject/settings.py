@@ -162,6 +162,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://react-django-quiz-app-1.onrender.com"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
