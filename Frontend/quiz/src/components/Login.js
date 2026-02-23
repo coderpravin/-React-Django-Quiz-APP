@@ -25,18 +25,14 @@
                 });
 
                 console.log("STATUS:", res.status);
-
-                const text = await res.text();
-                console.log("RAW RESPONSE:", text);
-
-
+                
                 if (!res.ok){
                     throw new Error("Server Error "+ res.status)
                 }
 
 
-                const data = await res.json();
-                console.log("PARSED DATA:", data);
+                const data  = await res.json();
+                console.log("Parsed Data:", data);
 
                 if (data.success){
                     console.log("Login Sucess");
