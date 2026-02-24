@@ -10,57 +10,71 @@ function QuizDetail() {
     const navigate = useNavigate();
     const [timeLeft, setTimeLeft] = useState(0);
 
-    const handleSubmit = async () =>{
+    const handleSubmit = async () => {
         const formatedAnswers = Object.keys(selectedAnswers).map((questionId) => ({
             question_id: questionId,
             selected_option_id: selectedAnswers[questionId]
         }));
 
-        try{
-            const response = await fetch("https://react-django-quiz-app-1.onrender.com/api/quiz-submit/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ answers: formatedAnswers }),
-        });
+        try {
+            const response = await fetch("https://react-django-quiz-app.onrender.com/api/quiz-submit/", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ answers: formatedAnswers }),
+            });
 
-           const data = await response.json();
-           // 🚀 Navigate to Result page
-           navigate("/result", { state: { results: data } });
+            const data = await response.json();
+            // 🚀 Navigate to Result page
+            navigate("/result", { state: { results: data } });
 
-           console.log(data);
+            console.log(data);
 
-    } catch (error) {
-        console.error("The eroor is", error);
-    }
-};
+        } catch (error) {
+            console.error("The eroor is", error);
+        }
+    };
 
-  useEffect(() => {
-    fetch(`https://react-django-quiz-app.onrender.com/quiz/${id}/`)
-        .then((res) => res.json())
-        .then((data) => {
-            setQuiz(data);
-            setTimeLeft(data.duration_minute * 60);
-        })
-        .catch((err) => console.error(err));
-}, [id]);
+    useEffect(() => {
+        console.log("Quiz Id:", id);
 
- useEffect(() => {
-    if (timeLeft <= 0) return;
+        fetch(`https://react-django-quiz-app.onrender.com/api/quiz/${id}/`)
+            .then((res) => {
+                console.log("Status:", res.status);
+                return res.text();   // get raw response first
+            })
+            .then((data) => {
+                console.log("Raw response:", data);
 
-    const interval = setInterval(() => {
-        setTimeLeft((prev) => prev - 1);
-    }, 1000);
+                try {
+                    const jsonData = JSON.parse(data);
+                    console.log("Parsed JSON:", jsonData);
 
-    return () => clearInterval(interval);
-}, [timeLeft]);
+                    setQuiz(jsonData);
+                    setTimeLeft(jsonData.duration_minute * 60);
+                } catch (err) {
+                    console.error("JSON Parse Error:", err);
+                }
+            })
+            .catch((err) => console.error("Fetch error:", err));
 
-  useEffect(() => {
-    if (timeLeft === 0 && quiz) {
-        handleSubmit();
-    }
-}, [timeLeft]);
+    }, [id]);
+    useEffect(() => {
+        if (timeLeft <= 0) return;
+
+        const interval = setInterval(() => {
+            setTimeLeft((prev) => prev - 1);
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, [timeLeft]);
+
+    useEffect(() => {
+        if (timeLeft === 0 && quiz) {
+            handleSubmit();
+        }
+    }, [timeLeft]);
 
     // ⭐ IMPORTANT: wait until quiz loads
     if (!quiz) {
@@ -68,17 +82,17 @@ function QuizDetail() {
     }
 
     const formatTime = (seconds) => {
-    const minutes = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${minutes}:${secs < 10 ? "0" : ""}${secs}`;
-};
+        const minutes = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${minutes}:${secs < 10 ? "0" : ""}${secs}`;
+    };
 
     // ⭐ MUST return JSX
     return (
         <div className="quiz-container">
 
             <div className="timer">
-    ⏳          {formatTime(timeLeft)}
+                ⏳          {formatTime(timeLeft)}
             </div>
 
             <h1 className="quiz-title">{quiz.title}</h1>
@@ -96,7 +110,7 @@ function QuizDetail() {
                                 onChange={() =>
                                     setselectedAnswers({
                                         ...selectedAnswers,
-                                        [q.id]:opt.id
+                                        [q.id]: opt.id
                                     })
                                 }
                             />
@@ -107,7 +121,7 @@ function QuizDetail() {
                 </div>
             ))}
 
-             {/* ⭐ Submit button at end */}
+            {/* ⭐ Submit button at end */}
             <button className="submit-btn" onClick={handleSubmit}> Submit Quiz</button>
         </div>
     );
