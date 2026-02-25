@@ -25,7 +25,7 @@ function Signup(){
         }
 
         try{
-            const res = await fetch ("https://react-django-quiz-app-1.onrender.com/signup",{
+            const res = await fetch ("https://react-django-quiz-app-1.onrender.com/signup/",{
                 method:"POST",
                 headers: {
                 "Content-Type": "application/json",
@@ -37,7 +37,7 @@ function Signup(){
             console.log("RESPONSE DATA:", data);
 
 
-            if (res.ok && data.success){
+            if (res.ok){
                 navigate("/login")
                
             }else{
