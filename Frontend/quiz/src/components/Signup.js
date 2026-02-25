@@ -54,7 +54,7 @@ function Signup() {
         } catch (error) {
             console.error("Network error:", error);
             setError("Server not responding");
-        }
+        }};
 
 
 
