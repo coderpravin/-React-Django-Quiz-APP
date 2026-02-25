@@ -46,6 +46,7 @@ function Signup() {
             console.log("RESPONSE DATA:", data);
 
             if (res.ok) {
+                console.log("Navigating to login...");
                 navigate("/login");
             } else {
                 setError(data.message || "Signup Failed");
