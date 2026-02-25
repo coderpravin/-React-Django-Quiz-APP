@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Signup.css"
 import { useNavigate } from "react-router-dom";
 
-function Signup(){
+function Signup() {
 
     const [password, setPassword] = useState("");
     const [confirmPassword, setconfirmPassword] = useState("");
@@ -11,88 +11,96 @@ function Signup(){
     const [username, setUsername] = useState("");
     const navigate = useNavigate();
 
-    const handleSubmit = async (e) =>{
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (!email.includes("@") || !email.includes(".")){
+        if (!email.includes("@") || !email.includes(".")) {
             setError("Enter valid Email");
             return;
         }
 
-        if (password !== confirmPassword){
+        if (password !== confirmPassword) {
             setError("Password not match");
             return;
         }
 
-        try{
-            const res = await fetch ("https://react-django-quiz-app-1.onrender.com/signup/",{
-                method:"POST",
+        try {
+            const res = await fetch("https://react-django-quiz-app.onrender.com/api/user-signup/", {
+                method: "POST",
                 headers: {
-                "Content-Type": "application/json",
-            },
-               body: JSON.stringify({ username, email, password }),
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ username, email, password }),
             });
 
-            const data = await res.json()
+            console.log("STATUS CODE:", res.status);
+
+            let data = {};
+
+            try {
+                data = await res.json();
+            } catch (err) {
+                console.log("No JSON returned from server");
+            }
+
             console.log("RESPONSE DATA:", data);
 
-
-            if (res.ok){
-                navigate("/login")
-               
-            }else{
-                setError(data.message || "signup Failed")
+            if (res.ok) {
+                navigate("/login");
+            } else {
+                setError(data.message || "Signup Failed");
             }
-        } catch(error){
-            console.error("The error is ", error)
+
+        } catch (error) {
+            console.error("Network error:", error);
+            setError("Server not responding");
         }
-    };
 
 
 
-    return (
-        <div className="signup-container">
-            <form className="signup-form" onSubmit={handleSubmit}>
-                <h2>Signup Page</h2>
+        return (
+            <div className="signup-container">
+                <form className="signup-form" onSubmit={handleSubmit}>
+                    <h2>Signup Page</h2>
 
-                {error ? <p style={{color:"red"}}>{error}</p> : null}
-                <input
-                    type="text"
-                    placeholder="Enter Username"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                    required
-                />
-                
-                <input 
-                    type="email"
-                    placeholder="Enter your Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
+                    {error ? <p style={{ color: "red" }}>{error}</p> : null}
+                    <input
+                        type="text"
+                        placeholder="Enter Username"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                        required
+                    />
 
-                <input
-                    type="password"
-                    placeholder="Enter your password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                />
+                    <input
+                        type="email"
+                        placeholder="Enter your Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
 
-                <input
-                    type="password"
-                    placeholder="Confirm password"
-                    value={confirmPassword}
-                    onChange={(e) => setconfirmPassword(e.target.value)}
-                    required
-                />
+                    <input
+                        type="password"
+                        placeholder="Enter your password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                    />
 
-                <button type="submit">Signup</button>
-            </form>
-            
-        </div>
-    );
-}
+                    <input
+                        type="password"
+                        placeholder="Confirm password"
+                        value={confirmPassword}
+                        onChange={(e) => setconfirmPassword(e.target.value)}
+                        required
+                    />
 
-export default Signup;
+                    <button type="submit">Signup</button>
+                </form>
+
+            </div>
+        );
+    }
+
+    export default Signup;
