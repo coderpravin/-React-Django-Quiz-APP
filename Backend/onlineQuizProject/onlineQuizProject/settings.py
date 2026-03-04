@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
+#import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,10 +28,10 @@ SECRET_KEY = 'django-insecure-%q1zf&#zq2tl_pi^3+$4+%&v^468&sz$rejk7sh=8@==e%h4!k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    "https://react-django-quiz-app.onrender.com",
-    "*"
-    ]
+ALLOWED_HOSTS = ["*"]
+    #"https://react-django-quiz-app.onrender.com",
+    #"*"
+    
 
 
 # Application definition
@@ -84,14 +84,14 @@ WSGI_APPLICATION = 'onlineQuizProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-'''
+
 
 '''
 DATABASES = {
@@ -105,12 +105,13 @@ DATABASES = {
     }
 }
 '''
-
+'''
 DATABASES = {
     'default': dj_database_url.config(
         default=os.environ.get('DATABASE_URL')
     )
 }
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators

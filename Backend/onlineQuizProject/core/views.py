@@ -1,11 +1,12 @@
 from django.shortcuts import render,get_object_or_404
 from django.contrib.auth.models import User
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Quiz, Question, Option, QuizAttempt, Answer
 from .serializers import QuizSerializer, QuestionSerializer, OptionSerializer, QuizAttemptSerializer, AnswerSerializer
 from django.contrib.auth import authenticate, logout, login
+from rest_framework.permissions import IsAuthenticated  
 # Create your views here.
 
 @api_view(["GET"])
@@ -65,6 +66,7 @@ def login_user(request):
         return Response({"success": False, 'message':"Invalid Username or password"}, status=status.HTTP_401_UNAUTHORIZED)
 
 @api_view(["POST"])
+@permission_classes([IsAuthenticated])
 def logout_user(request):
     logout(request)
     return Response({"message": "Logout successful"}, status=status.HTTP_200_OK)
@@ -89,12 +91,14 @@ def signup_user(request):
     return Response({"success": True, "message" :"User Created"}, status=status.HTTP_201_CREATED)
         
 @api_view(["GET"])
+@permission_classes([IsAuthenticated])
 def quiz_detail(request, pk):
     quiz = get_object_or_404(Quiz, pk=pk)
     serializer = QuizSerializer(quiz)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
 @api_view(["POST"])
+@permission_classes([IsAuthenticated])
 def submit_quiz(request):
     answers = request.data.get("answers",[])
     result = []
